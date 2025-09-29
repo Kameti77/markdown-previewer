@@ -1,16 +1,64 @@
-# React + Vite
+````md
+# Markdown Previewer (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that lets you write Markdown and see a live preview side by side.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔧 Features
 
-## React Compiler
+- Type Markdown in the **Editor** pane  
+- See rendered HTML instantly in the **Preview** pane  
+- Maximize / minimize each pane independently  
+- Supports headings, bold, italic, lists, code blocks, images, links, and more  
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Setup & Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+npm run dev
+````
+
+Open your browser at `http://localhost:3000` (or whatever port Vite uses).
+
+---
+
+## 🌐 Live Demo
+
+Here’s a live demo you can check out:
+
+[Markdown Previewer Live](https://markdown-previewer-40au.onrender.com/)
+
+You can deploy your app (e.g. with Vercel, Netlify, or GitHub Pages) and replace this link.
+
+---
+
+## 🗂️ Project Structure
+
+```
+public/
+  └── index.html
+src/
+  ├── App.jsx
+  ├── index.jsx
+  └── App.css
+package.json
+README.md
+```
+
+* `App.jsx` contains the main logic (editor, preview, toggles)
+* `App.css` handles styling
+* `index.jsx` is the React entry point
+
+---
+
+## ✏️ Usage
+
+1. Write your Markdown in the editor pane
+2. Watch the preview pane update in real time
+3. Click the maximize / minimize icon in a pane to expand or collapse it
+
