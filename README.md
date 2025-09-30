@@ -5,6 +5,9 @@ A simple React application that lets you write Markdown and see a live preview s
 
 ---
 
+![CI/CD](https://github.com/Kameti77/markdown-previewer/actions/workflows/ci.yml/badge.svg)
+
+
 ## 🔧 Features
 
 - Type Markdown in the **Editor** pane  
