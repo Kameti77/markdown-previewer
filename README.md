@@ -5,8 +5,6 @@ A simple React application that lets you write Markdown and see a live preview s
 
 ---
 
-![CI/CD](https://github.com/Kameti77/markdown-previewer/actions/workflows/ci.yml/badge.svg)
-
 
 ## 🔧 Features
 
@@ -29,6 +27,8 @@ npm run dev
 Open your browser at `http://localhost:3000` (or whatever port Vite uses).
 
 ---
+
+![CI/CD](https://github.com/Kameti77/markdown-previewer/actions/workflows/ci.yml/badge.svg)
 
 ## 🌐 Live Demo
 
